@@ -18,6 +18,7 @@
     "mammoth": "^1.7.2",
     "multer": "^1.4.5-lts.1",
     "node-fetch": "^3.3.2",
-    "uuid": "^10.0.0"
+    "uuid": "^10.0.0",
+    "@azure/ai-openai": "^1.0.0"  // 新增這行來安裝 Azure OpenAI SDK
   }
 }
