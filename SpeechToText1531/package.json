@@ -4,7 +4,6 @@
   "main": "backend/server.js",
   "type": "module",
   "scripts": {
-    
     "start": "concurrently \"npm run start:frontend\" \"npm run start:backend\"",
     "start:frontend": "http-server frontend -p 8080",
     "start:backend": "cd backend && npm start",
@@ -13,6 +12,7 @@
   "dependencies": {
     "concurrently": "^8.2.2",
     "dotenv": "^16.4.5",
-    "http-server": "^14.1.1"
+    "http-server": "^14.1.1",
+    "@azure/ai-openai": "^1.0.0" // 新增這行來安裝 Azure OpenAI SDK
   }
 }
